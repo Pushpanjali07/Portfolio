@@ -290,7 +290,6 @@ th{
     margin: 0;
     padding: 10px;
     overflow-x: hidden;
-    font-size: 16px;
   }
 
   img {
@@ -301,21 +300,21 @@ th{
   }
 
   nav ul {
+    display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
     padding-left: 0;
+    gap: 10px;
   }
 
   section, div, .container {
-    width: 100%;
-    display: block;
+    width: 100% !important;
+    display: block !important;
     text-align: center;
   }
 
   h1, h2, h3 {
     font-size: 1.5rem;
-    word-wrap: break-word;
   }
 
   ul {
