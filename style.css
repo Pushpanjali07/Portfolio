@@ -1,6 +1,7 @@
 body{
     background-color: rgb(219, 203, 203);
     overflow-x: hidden;
+    margin-top: 30px;
 }
 .name{
     background-color: rgb(219, 203, 203);
@@ -49,6 +50,9 @@ nav{
   nav a {
     font-size: 1rem;
     padding: 6px;
+  }
+  .main {
+    padding-top: 80px;
   }
 }
 #home{
