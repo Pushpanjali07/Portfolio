@@ -58,6 +58,13 @@ nav{
 * {
   box-sizing: border-box;
 }
+#certification h3{
+    align-items: center;
+}
+
+#hackathon h3{
+  align-items: center;
+}
 
 body {
   overflow-x: hidden;
